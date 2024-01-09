@@ -1,0 +1,7 @@
+version: "3.7.8"
+services:
+  lavalink:
+    restart: "always"
+    ports:
+      - "2333:2333"
+    build: .
